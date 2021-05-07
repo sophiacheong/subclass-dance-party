@@ -65,8 +65,3 @@ Complete all the bare minimum requirements before moving on to the advanced cont
     
 ### Tests ###
    - [ ] Go back and add at least two additional unit tests. If possible, try to add tests that will require you improve your implementation in order to make them pass.
-
-## Example: ##
-![image](https://user-images.githubusercontent.com/76498304/117389601-745aaf80-aea1-11eb-8801-995caa7e67d1.png)
-
-
