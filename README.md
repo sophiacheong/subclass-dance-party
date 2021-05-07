@@ -42,11 +42,11 @@ It uses a pre-commit hook to run staged files through **`eslint`** before each c
 Complete all the bare minimum requirements before moving on to the advanced content. This sprint gives you a substantial amount of creative freedom. We recommend that you read through all the requirements and hold a short planning session with your pair to discuss what your final product will be.
    - [ ] Complete **[Course] beesbeesbees**
    - [ ] Refactor the **`Dancer`** class and its subclass **`BlinkyDancer`** from functional inheritance to pseudoclassical.
-          * Feel free to refer to the slide decks on Functional Subclasses & Pseudoclassical Subclasses
+         * Feel free to refer to the slide decks on Functional Subclasses & Pseudoclassical Subclasses
    - [ ] Make at least two new kinds of dancers. This will require creating a new factory function for each one (and making sure that your new JavaScript files are included in dancefloor.html).
-          * Add a link in the top bar of **`dancefloor.html`** to create a dancer of each new type you create
-          * Write tests for new types. Use **`spec/blinkyDancerSpec.js`** as a template for new test files, and make sure to include them in **`SpecRunner.html`**.
-    * Having trouble coming up ideas? Here are some example hierarchies:
+        * Add a link in the top bar of **`dancefloor.html`** to create a dancer of each new type you create
+        * Write tests for new types. Use **`spec/blinkyDancerSpec.js`** as a template for new test files, and make sure to include them in **`SpecRunner.html`**.
+   * Having trouble coming up ideas? Here are some example hierarchies:
         * [Dancer] > [PopDancer] > [RickAstleyDancer]
         * [Dancer] > [FightingDancer] > [ZangiefDancer]
         * [Dancer] > [BouncyDancer]
