@@ -52,11 +52,11 @@ Complete all the bare minimum requirements before moving on to the advanced cont
         * [Dancer] > [BouncyDancer]
         * [Dancer] > [SuperHeroDancer] > [BatmanDancer]
    - [ ] Make your dancers visually distinct and adorable with CSS and JS! Don't skimp on the CSS here. It is a core tool everyone can benefit from additional experience with. Hack Reactor alumni frequently report getting CSS questions in interviews and knowledge requirements for their primarily JavaScript oriented jobs.
-          * Changing colors!
-          * Moving around the page!
-          * Growing or shrinking in size!
-          * Other shapes besides circles!
-          * Rotation!
+        * Changing colors!
+        * Moving around the page!
+        * Growing or shrinking in size!
+        * Other shapes besides circles!
+        * Rotation!
    - [ ] Make a button that, when clicked, tells all the dancers to line up against one side of the dance floor. Remember you've got a global array of all created dancers (it's defined in **`src/init.js`**) so you can loop through that array and tell each object to **`lineUp`**. You'll need to add a **`lineUp`** method to each of your dancer types - they don't all have to do exactly the same thing.
    - [ ] Use an image (**`<img>`** tag or CSS **`background-image`**) instead of plain-jane RGB to add some pizazz!
    - [ ] Make dancers that interact with other dancers. For example, by iterating across the array **`window.dancers`** and using the Pythagorean Theorem to calculate your distance from each other dancer, you can have a dancer find its **`n`** closest neighbors and do something based on their positions.
