@@ -40,10 +40,10 @@ It uses a pre-commit hook to run staged files through **`eslint`** before each c
 
 ## Bare Minimum Requirements ##
 Complete all the bare minimum requirements before moving on to the advanced content. This sprint gives you a substantial amount of creative freedom. We recommend that you read through all the requirements and hold a short planning session with your pair to discuss what your final product will be.
-    - [ ] Complete **[Course] beesbeesbees**
-    - [ ] Refactor the **`Dancer`** class and its subclass **`BlinkyDancer`** from functional inheritance to pseudoclassical.
+   - [ ] Complete **[Course] beesbeesbees**
+   - [ ] Refactor the **`Dancer`** class and its subclass **`BlinkyDancer`** from functional inheritance to pseudoclassical.
           * Feel free to refer to the slide decks on Functional Subclasses & Pseudoclassical Subclasses
-    - [ ] Make at least two new kinds of dancers. This will require creating a new factory function for each one (and making sure that your new JavaScript files are included in dancefloor.html).
+   - [ ] Make at least two new kinds of dancers. This will require creating a new factory function for each one (and making sure that your new JavaScript files are included in dancefloor.html).
           * Add a link in the top bar of **`dancefloor.html`** to create a dancer of each new type you create
           * Write tests for new types. Use **`spec/blinkyDancerSpec.js`** as a template for new test files, and make sure to include them in **`SpecRunner.html`**.
     * Having trouble coming up ideas? Here are some example hierarchies:
@@ -51,20 +51,20 @@ Complete all the bare minimum requirements before moving on to the advanced cont
         * [Dancer] > [FightingDancer] > [ZangiefDancer]
         * [Dancer] > [BouncyDancer]
         * [Dancer] > [SuperHeroDancer] > [BatmanDancer]
-    - [ ] Make your dancers visually distinct and adorable with CSS and JS! Don't skimp on the CSS here. It is a core tool everyone can benefit from additional experience with. Hack Reactor alumni frequently report getting CSS questions in interviews and knowledge requirements for their primarily JavaScript oriented jobs.
+   - [ ] Make your dancers visually distinct and adorable with CSS and JS! Don't skimp on the CSS here. It is a core tool everyone can benefit from additional experience with. Hack Reactor alumni frequently report getting CSS questions in interviews and knowledge requirements for their primarily JavaScript oriented jobs.
           * Changing colors!
           * Moving around the page!
           * Growing or shrinking in size!
           * Other shapes besides circles!
           * Rotation!
-    - [ ] Make a button that, when clicked, tells all the dancers to line up against one side of the dance floor. Remember you've got a global array of all created dancers (it's defined in **`src/init.js`**) so you can loop through that array and tell each object to **`lineUp`**. You'll need to add a **`lineUp`** method to each of your dancer types - they don't all have to do exactly the same thing.
-    - [ ] Use an image (**`<img>`** tag or CSS **`background-image`**) instead of plain-jane RGB to add some pizazz!
-    - [ ] Make dancers that interact with other dancers. For example, by iterating across the array **`window.dancers`** and using the Pythagorean Theorem to calculate your distance from each other dancer, you can have a dancer find its **`n`** closest neighbors and do something based on their positions.
-    - [ ] Make a dancer that reacts to the mouse (use jQuery to add a **`mouseover`** handler).
-    - [ ] Do any remaining work to make your dance party a presentable product. Take a screencast of it and post it on Slack.
+   - [ ] Make a button that, when clicked, tells all the dancers to line up against one side of the dance floor. Remember you've got a global array of all created dancers (it's defined in **`src/init.js`**) so you can loop through that array and tell each object to **`lineUp`**. You'll need to add a **`lineUp`** method to each of your dancer types - they don't all have to do exactly the same thing.
+   - [ ] Use an image (**`<img>`** tag or CSS **`background-image`**) instead of plain-jane RGB to add some pizazz!
+   - [ ] Make dancers that interact with other dancers. For example, by iterating across the array **`window.dancers`** and using the Pythagorean Theorem to calculate your distance from each other dancer, you can have a dancer find its **`n`** closest neighbors and do something based on their positions.
+   - [ ] Make a dancer that reacts to the mouse (use jQuery to add a **`mouseover`** handler).
+   - [ ] Do any remaining work to make your dance party a presentable product. Take a screencast of it and post it on Slack.
     
 ### Tests ###
-    - [ ] Go back and add at least two additional unit tests. If possible, try to add tests that will require you improve your implementation in order to make them pass.
+   - [ ] Go back and add at least two additional unit tests. If possible, try to add tests that will require you improve your implementation in order to make them pass.
 
 ## Example: ##
 ![image](https://user-images.githubusercontent.com/76498304/117389327-07dfb080-aea1-11eb-9fbd-78fa2831aaac.png)
