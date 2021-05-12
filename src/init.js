@@ -28,6 +28,21 @@ $(document).ready(function() {
       Math.random() * 1000
     );
     $('body').append(dancer.$node);
+    window.dancers.push(dancer);
+
+    $('.BlueDancer').mouseover(function() {
+      $('.BlueDancer').css('border', '10px solid green');
+    });
+
+    $('.BlueDancer').mouseleave(function() {
+      $('.BlueDancer').css('border', '10px solid blue');
+    });
+  });
+
+  $('.lineUp').on('click', function(e) {
+    for (var i = 0; i < window.dancers.length; i++) {
+      window.dancers[i].lineUp(i + 1);
+    }
   });
 });
 
