@@ -35,3 +35,6 @@ body, a:link, a:visited, a:active{
   position: absolute;
   background-size: 100px;
 }
+.PatrickDancer.animate {
+  transform: scaleX(-1);
+}

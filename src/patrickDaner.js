@@ -9,4 +9,9 @@ PatrickDancer.prototype.constructor = PatrickDancer;
 
 PatrickDancer.prototype.step = function() {
   Dancer.prototype.step.call(this);
+  this.$node.css({
+    width: '100px',
+    height: '50px',
+  });
+  this.$node.toggleClass('animate');
 };
