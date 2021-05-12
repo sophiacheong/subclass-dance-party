@@ -25,3 +25,13 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+.BlueDancer {
+  border: 10px solid blue;
+  border-radius: 10px;
+  position: absolute;
+}
+.PatrickDancer {
+  background-image: url(https://www.denofgeek.com/wp-content/uploads/2013/11/patrick-star-wallpaper.jpg?resize=768%2C432);
+  position: absolute;
+  background-size: 100px;
+}
